@@ -64,7 +64,7 @@ function keyPressed(){
   if(keyPressed === LEFT_ARROW ){
    
    cat.velocityX = -5; 
-        cat.addAnimation("catRunning", catImg2);
+        cat.addAnimation("catRunning", cat2Img);
         cat.changeAnimation("catRunning");
    
   mouse.addAnimation("mouseTeasing",mouse2Img);
